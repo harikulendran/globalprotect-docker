@@ -25,8 +25,6 @@ if [ $1 = "connect" ]; then
 			;;
 	esac
 
-	echo "happening"
-
 	mkdir -p ~/vpn_backup/local
 	mkdir -p ~/vpn_backup/container
 	mkdir -p ~/vpn_backup/ORIGINAL
